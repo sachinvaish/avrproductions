@@ -5,7 +5,7 @@ export default function Contact() {
     <>
         {/* start page title section */}
         <section
-            className="wow animate__fadeIn parallax"
+            className="wow animate__fadeIn parallax" 
             data-parallax-background-ratio="0.5"
             style={{ backgroundImage: 'url("images/parallax-bg13.jpg")' }}
         >
@@ -15,13 +15,13 @@ export default function Contact() {
                 <div className="col-12 extra-small-screen page-title-large d-flex flex-column justify-content-center text-center">
                 {/* start page title */}
                 <h1 className="text-white-2 alt-font font-weight-600 letter-spacing-minus-1 margin-15px-bottom">
-                "Face the simple fact before it comes involved. Solve the small problem before it becomes big."
+                "‘Branding The Customer Experience"
                 </h1>
                 {/* end page title */}
                 {/* start sub title */}
-                <span className="text-white-2 opacity6 alt-font">
+                {/* <span className="text-white-2 opacity6 alt-font">
                 – Lao Tzu, Philosopher
-                </span>
+                </span> */}
                 {/* end sub title */}
                 </div>
             </div>
@@ -29,7 +29,7 @@ export default function Contact() {
         </section>
         {/* end page title section */}
         {/* start contact info */}
-        <section className="wow animate__fadeIn">
+        <section className="wow animate__fadeIn" id='contact'>
             <div className="container px-0">
             <div className="row justify-content-center">
                 <div className="col-12 col-lg-6 col-md-8 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
@@ -150,7 +150,7 @@ export default function Contact() {
             <div className="row row-cols-1 row-cols-lg-2">
                 <div
                 className="col cover-background md-h-450px sm-h-350px wow animate__fadeIn"
-                style={{ background: "url(images/homepage-9-parallax-img6.jpg)" }}
+                style={{ background: "url(images/contact-img2.jpg)" }}
                 />
                 <div className="col text-center padding-six-lr padding-five-half-tb lg-padding-four-lr md-padding-ten-half-tb md-padding-twelve-half-lr sm-padding-15px-lr wow animate__fadeIn">
                 <div className="text-medium-gray alt-font text-small text-uppercase margin-5px-bottom sm-margin-three-bottom">
@@ -243,7 +243,7 @@ export default function Contact() {
         </section>
         {/* end map section */}
         {/* start social section */}
-        <section className="wow animate__fadeIn">
+        {/* <section className="wow animate__fadeIn">
             <div className="container">
             <div className="row">
                 <div className="col-12 text-center social-style-1 social-icon-style-5">
@@ -294,7 +294,7 @@ export default function Contact() {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* end social section */}
         </>
 

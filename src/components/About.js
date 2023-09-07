@@ -10,7 +10,7 @@ export default function About() {
             About us
           </div>
           <h6 className="font-weight-300 text-extra-dark-gray mb-0">
-          We are one of the leading companies providing Strategic Brand Activation Services. We bring to you the future of Experiential Marketing with our unique and thoughtful Brand Activation ideas and concepts. Our team of Experts are Highly Proficient with Immense Experience in Marketing and Advertising. 
+          We are one of the leading companies providing Strategic Brand Activation Services. We bring to you the future of Experiential Marketing with our unique and thoughtful Brand Activation ideas and concepts. Our team of Experts are Highly Proficient with Immense Experience in Marketing and Advertising. We strive to introduce Novel Brand Activation Strategies that are Time-Bound and Goal-Oriented. Our interactive and planned activations always prove to be excellent crowd puller. We ensure to captivate the target audience and provide them with an Immersive Experience. At AVR, we focus on the Audience Experience with the Brand’s Frequency. Our motive is to utilize the power of Modern Tools and Marketing Mix to provide the desired limelight to your business. 
           </h6>
         </div>
       </div>
@@ -19,9 +19,9 @@ export default function About() {
         <h3 className="alt-font row justify-content-center align-items-center" style={{marginBottom:'40px'}}>Our Manifesto</h3>
         <div className="col-12 col-lg-4 col-md-6 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp">
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/latest-blog6.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Creative.
@@ -45,9 +45,9 @@ export default function About() {
           data-wow-delay="0.2s"
         >
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/latest-blog5.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Art.
@@ -71,9 +71,9 @@ export default function About() {
           data-wow-delay="0.4s"
         >
           <div className="bg-white text-center">
-            <a href="services-simple.html">
-              <img src="images/latest-blog7.jpg" alt="" />
-            </a>
+            {/* <a href="services-simple.html"> */}
+              <img src="images/homepage-9-parallax-img6.jpg" alt="" />
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Signature.

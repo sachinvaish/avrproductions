@@ -9,9 +9,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center image-hover-style">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-1.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
               Experiential Marketing
@@ -32,9 +32,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-2.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Brand & Store Launches
@@ -55,9 +55,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-4.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Digital Marketing
@@ -78,9 +78,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-3.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Trade Shows & Exhibitions
@@ -101,9 +101,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-5.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Corporate Events
@@ -124,9 +124,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-7.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Visual Merchandising
@@ -147,9 +147,9 @@ export default function Services() {
         {/* start features box item */}
         <div className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp" style={{marginBottom:'50px'}}>
           <div className="bg-white text-center">
-            <a href="services-simple.html">
+            {/* <a href="services-simple.html"> */}
               <img src="images/Service-6.jpg" alt="" />
-            </a>
+            {/* </a> */}
             <div className="padding-45px-all md-padding-30px-all">
               <h6 className="text-extra-dark-gray font-weight-600 d-block alt-font margin-10px-bottom">
                 Retail Fixtures

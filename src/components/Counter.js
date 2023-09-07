@@ -9,7 +9,7 @@ export default function Counter() {
         {/* start counter box item */}
         <div className="col md-padding-twelve-left md-margin-60px-bottom sm-margin-40px-bottom sm-padding-15px-left wow animate__fadeInRight">
           <div className="feature-box-5 position-relative">
-            <i className="icon-desktop text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-genius text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -31,7 +31,7 @@ export default function Counter() {
           data-wow-delay="0.2s"
         >
           <div className="feature-box-5 position-relative">
-            <i className="icon-camera text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-camera text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -53,7 +53,7 @@ export default function Counter() {
           data-wow-delay="0.4s"
         >
           <div className="feature-box-5 position-relative">
-            <i className="icon-laptop text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-laptop text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -75,7 +75,7 @@ export default function Counter() {
           data-wow-delay="0.6s"
         >
           <div className="feature-box-5 position-relative">
-            <i className="icon-chat text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-chat text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -98,7 +98,7 @@ export default function Counter() {
         {/* start counter box item */}
         <div className="col md-padding-twelve-left md-margin-60px-bottom sm-margin-40px-bottom sm-padding-15px-left wow animate__fadeInRight">
           <div className="feature-box-5 position-relative">
-            <i className="icon-desktop text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-desktop text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -120,7 +120,7 @@ export default function Counter() {
           data-wow-delay="0.2s"
         >
           <div className="feature-box-5 position-relative">
-            <i className="icon-camera text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-camera text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"
@@ -142,7 +142,7 @@ export default function Counter() {
           data-wow-delay="0.4s"
         >
           <div className="feature-box-5 position-relative">
-            <i className="icon-laptop text-medium-gray icon-extra-medium top-6" />
+            {/* <i className="icon-laptop text-medium-gray icon-extra-medium top-6" /> */}
             <div className="feature-content">
               <h6
                 className="d-block text-extra-dark-gray font-weight-600 alt-font margin-5px-bottom mb-md-0 counter"

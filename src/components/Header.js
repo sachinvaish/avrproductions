@@ -160,7 +160,7 @@ export default function Header() {
               <a href="#services">Services</a>
             </li>
             <li className="dropdown megamenu-fw">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

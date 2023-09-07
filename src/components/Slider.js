@@ -23,9 +23,9 @@ export default function Slider() {
                   we combine design, thinking and technical craft
                 </span>
                 <h1 className="alt-font text-uppercase text-white-2 font-weight-700 w-75 sm-w-95 mx-auto margin-35px-bottom sm-margin-15px-bottom">
-                  Crafting Digital Experiences
+                  Crafting Beautiful Experiences
                 </h1>
-                <div className="btn-dual">
+                {/* <div className="btn-dual">
                   <a
                     href="https://1.envato.market/g7jrr"
                     target="_blank"
@@ -33,7 +33,7 @@ export default function Slider() {
                   >
                     Explore
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

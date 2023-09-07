@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="row align-items-center">
             {/* start slogan */}
             <div className="col-lg-4 col-md-5 text-center alt-font sm-margin-15px-bottom">
-              London based highly creative studio
+            Copyright &copy; AVR Productions 2023
             </div>
             {/* end slogan */}
             {/* start logo */}
