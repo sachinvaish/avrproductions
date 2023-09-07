@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 export default function Header() {
+
+  const reload = ()=>{
+    window.location.href = '#';
+    collapseMenu();
+  }
+
+  const toggleMenu = useRef(0);
+  const collapseMenu = ()=>{
+    toggleMenu.current.click();
+  }
+
   return (
     <header >
   {/* topbar */}
@@ -110,10 +121,10 @@ export default function Header() {
   {/* end topbar */}
   {/* start navigation */}
   <nav className="navbar navbar-default bootsnav navbar-top header-light-transparent background-transparent navbar-expand-lg">
-    <div className="container-lg nav-header-container">
+    <div className="container-lg nav-header-container" >
       {/* start logo */}
       <div className="col-auto ps-0">
-        <a href="index.html" title="Pofo" >
+        <a href='#' onClick={reload} title="AVR Productions" >
           <img
             src="images/logo.png"
             data-at2x="images/logo@2x.png"
@@ -126,6 +137,7 @@ export default function Header() {
       {/* end logo */}
       <div className="col accordion-menu pe-0 pe-md-3">
         <button
+          ref={toggleMenu}
           type="button"
           className="navbar-toggler collapsed"
           data-bs-toggle="collapse"
@@ -147,20 +159,20 @@ export default function Header() {
             data-out="animate__fadeOut"
           >
             {/* start menu item */}
-            <li className="dropdown megamenu-fw">
-              <a href="#home">Home</a>
+            <li className="dropdown megamenu-fw ">
+              <a href='#' onClick={reload}>Home</a>
             </li>
-            <li className="dropdown megamenu-fw">
-              <a href="#about">About</a>
+            <li className="dropdown megamenu-fw ">
+              <a href="#about" onClick={collapseMenu}>About</a>
             </li>
-            <li className="dropdown megamenu-fw">
-              <a href="#manifesto">Our Manifesto</a>
+            <li className="dropdown megamenu-fw ">
+              <a href="#manifesto" onClick={collapseMenu}>Our Manifesto</a>
             </li>
-            <li className="dropdown megamenu-fw">
-              <a href="#services">Services</a>
+            <li className="dropdown megamenu-fw ">
+              <a href="#services" onClick={collapseMenu}>Services</a>
             </li>
-            <li className="dropdown megamenu-fw">
-              <a href="#contact">Contact</a>
+            <li className="dropdown megamenu-fw ">
+              <a href="#contact" onClick={collapseMenu}>Contact</a>
             </li>
           </ul>
         </div>

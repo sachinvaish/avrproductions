@@ -16,7 +16,7 @@ function App() {
         <Services />
         <Contact/>
         <Footer />
-        <a className="scroll-top-arrow" href="javascript:void(0);">
+        <a className="scroll-top-arrow" href="#">
           <i className="ti-arrow-up" />
         </a>
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Slider() {
   return (
-    <section className="wow animate__fadeIn p-0 main-slider mobile-height top-space">
+    <section className="wow animate__fadeIn p-0 main-slider mobile-height top-space"   id='#home' >
 
 
     <div

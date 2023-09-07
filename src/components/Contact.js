@@ -54,12 +54,12 @@ export default function Contact() {
                     <br />
                     Ludhiana, Punjab 141008
                 </p>
-                <a
+                {/* <a
                     href="#"
                     className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
                 >
                     GET DIRECTION
-                </a>
+                </a> */}
                 </div>
                 {/* end contact info item */}
                 {/* start contact info item */}
@@ -80,12 +80,12 @@ export default function Contact() {
                     <br />
                     98159-49698 Jaspreet Singh
                 </p>
-                <a
+                {/* <a
                     href="#"
                     className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
                 >
                     call us
-                </a>
+                </a> */}
                 </div>
                 {/* end contact info item */}
                 {/* start contact info item */}
@@ -106,12 +106,12 @@ export default function Contact() {
                     <br />
                     <a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a>
                 </p>
-                <a
+                {/* <a
                     href="#"
                     className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
                 >
                     send e-mail
-                </a>
+                </a> */}
                 </div>
                 {/* end contact info item */}
                 {/* start contact info item */}
@@ -238,7 +238,7 @@ export default function Contact() {
         {/* start map section */}
         <section className="p-0 one-second-screen md-h-400px sm-h-300px wow animate__fadeIn">
             
-            <iframe className="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.8384170179887!2d75.85230585105525!3d30.913416424825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a839ff7d10b53%3A0x2e223319f073a1c!2sAVR%20Productions!5e0!3m2!1sen!2sin!4v1692965560966!5m2!1sen!2sin" width='100%' height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.8384170179887!2d75.85230585105525!3d30.913416424825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a839ff7d10b53%3A0x2e223319f073a1c!2sAVR%20Productions!5e0!3m2!1sen!2sin!4v1692965560966!5m2!1sen!2sin" width='100%' height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 			
         </section>
         {/* end map section */}
