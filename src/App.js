@@ -5,6 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Counter from "./components/Counter";
 import Contact from "./components/Contact";
+import Numbers from "./components/Numbers";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Slider />
         <About />
         <Counter />
+        <Numbers/>
         <Services />
         <Contact/>
         <Footer />

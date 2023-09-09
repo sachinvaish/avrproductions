@@ -50,9 +50,11 @@ export default function Contact() {
                     Visit Our Office
                 </div>
                 <p className="mx-auto">
-                33 Ganesh Market Lakkar Bazar
+                AVR Productions Brand Services
                     <br />
-                    Ludhiana, Punjab 141008
+                    H.O- Plot No. 2, Canal Estate
+                    <br />
+                    Dehlon-Sanewal Road, Tibba - 141120
                 </p>
                 {/* <a
                     href="#"
@@ -238,7 +240,7 @@ export default function Contact() {
         {/* start map section */}
         <section className="p-0 one-second-screen md-h-400px sm-h-300px wow animate__fadeIn">
             
-            <iframe className="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d508.8384170179887!2d75.85230585105525!3d30.913416424825446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a839ff7d10b53%3A0x2e223319f073a1c!2sAVR%20Productions!5e0!3m2!1sen!2sin!4v1692965560966!5m2!1sen!2sin" width='100%' height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className="w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3426.8686365072813!2d75.94836007558328!3d30.80631797454884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQ4JzIyLjciTiA3NcKwNTcnMDMuNCJF!5e0!3m2!1sen!2sin!4v1694226323784!5m2!1sen!2sin" width='100%' height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 			
         </section>
         {/* end map section */}

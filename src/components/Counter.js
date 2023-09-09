@@ -158,6 +158,7 @@ export default function Counter() {
           </div>
         </div>
         {/* end counter box item */}
+        
       </div>
     </div>
     

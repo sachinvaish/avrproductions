@@ -20,10 +20,10 @@ export default function Slider() {
             <div className="row h-100">
               <div className="col-12 d-flex flex-column justify-content-center text-center">
                 <span className="text-large text-very-light-gray font-weight-300 w-95 mx-auto margin-25px-bottom d-block sm-margin-15px-bottom">
-                  we combine design, thinking and technical craft
+                  Empowering Creativity through Design Thinking in 
                 </span>
                 <h1 className="alt-font text-uppercase text-white-2 font-weight-700 w-75 sm-w-95 mx-auto margin-35px-bottom sm-margin-15px-bottom">
-                  Crafting Beautiful Experiences
+                Crafting User Centric Experiences
                 </h1>
                 {/* <div className="btn-dual">
                   <a
