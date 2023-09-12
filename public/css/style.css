@@ -99,8 +99,8 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
 ====================================== */
 
 /* font family */
-.alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500}
-.main-font {font-family: 'Roboto', sans-serif;}
+.alt-font {font-family: 'Poppins', sans-serif; font-weight: 700}
+.main-font {font-family: 'Centaur Regular', sans-serif;}
 
 /* heading */
 h1, h2, h3, h4, h5, h6 {margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400;}
@@ -427,7 +427,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
     06. Button
 ====================================== */
 
-.btn {display:inline-block; border:2px solid transparent; color: inherit; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Montserrat', sans-serif; font-weight: 600; transition-duration: 0.3s; transition-timing-function: ease-in-out; white-space: nowrap;}
+.btn {display:inline-block; border:2px solid transparent; color: inherit; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Poppins', sans-serif; font-weight: 700; transition-duration: 0.3s; transition-timing-function: ease-in-out; white-space: nowrap;}
 .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-info:hover {color: #fff;}
 
 /* button size */
@@ -473,7 +473,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .btn.btn-rounded.btn-extra-large {padding: 12px 45px 13px;}
 
 /* image button */
-.image-button {width: 100%; background: rgba(0,0,0,0.80); padding: 26px; font-family: "Roboto", sans-serif; font-size: 16px;}
+.image-button {width: 100%; background: rgba(0,0,0,0.80); padding: 26px; font-family: "Centaur Regular", sans-serif; font-size: 16px;}
 .image-button:hover {background: rgba(0,0,0,0.5);}
 
 .tag-cloud a {font-size: 10px; padding: 3px 8px; border: 1px solid #d9d9d9; margin: 0 8px 8px 0; display: inline-block; text-transform: uppercase; color: #232323; line-height: 18px;}
@@ -2942,7 +2942,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .portfolio-wrapper .grid-item figure:hover figcaption {opacity: 1; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s;}
 
 /* justified gallery */
-.justified-gallery>a>.jg-caption, .justified-gallery>div>.jg-caption, .justified-gallery>figure>.jg-caption {padding:7px 15px; opacity: 0; display: initial !important; bottom: 0;  transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; text-transform: uppercase}
+.justified-gallery>a>.jg-caption, .justified-gallery>div>.jg-caption, .justified-gallery>figure>.jg-caption {padding:7px 15px; opacity: 0; display: initial !important; bottom: 0;  transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 11px; text-transform: uppercase}
 .caption.caption-visible {opacity: 1; bottom: 0 !important}
 
 /* portfolio hover style */
@@ -3871,4 +3871,15 @@ aside .instafeed-grid.gutter-extra-large, footer .instafeed-grid.gutter-extra-la
 
 :root {
     scroll-behavior: smooth;
+    font-family: "Centaur Regular";
   }
+
+.img{
+    scale: 1;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.img :hover{
+    scale: 1.2;
+}

@@ -13,7 +13,7 @@ export default function Header() {
   }
 
   return (
-    <header >
+    <header  >
   {/* topbar */}
   {/* <div className="top-header-area bg-black padding-10px-tb">
     <div className="container-lg">

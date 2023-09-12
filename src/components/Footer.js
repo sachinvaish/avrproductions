@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom">
+    <footer className="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom"  style={{fontFamily:'Centaur Regular',fontSize:'1rem'}}>
       <div className="bg-dark-footer padding-50px-tb sm-padding-30px-tb">
         <div className="container">
           <div className="row align-items-center">
@@ -13,7 +13,7 @@ export default function Footer() {
             {/* end slogan */}
             {/* start logo */}
             <div className="col-lg-4 col-md-2 text-center sm-margin-10px-bottom">
-              <a href="index.html">
+              <a href="#">
                 <img
                   className=""
                   src="images/logo-white.png"
@@ -61,7 +61,7 @@ export default function Footer() {
                   <li>
                     <a
                       className="instagram text-white-2"
-                      href="https://instagram.com/"
+                      href="https://instagram.com/avrproductionsbrandservices"
                       target="_blank"
                     >
                       <i

@@ -19,7 +19,7 @@ export default function Slider() {
           <div className="container position-relative one-fourth-screen sm-h-400px">
             <div className="row h-100">
               <div className="col-12 d-flex flex-column justify-content-center text-center">
-                <span className="text-large text-very-light-gray font-weight-300 w-95 mx-auto margin-25px-bottom d-block sm-margin-15px-bottom">
+                <span style={{fontFamily:'Centaur Regular'}} className="text-large text-very-light-gray font-weight-300 w-95 mx-auto margin-25px-bottom d-block sm-margin-15px-bottom">
                   Empowering Creativity through Design Thinking in 
                 </span>
                 <h1 className="alt-font text-uppercase text-white-2 font-weight-700 w-75 sm-w-95 mx-auto margin-35px-bottom sm-margin-15px-bottom">
@@ -40,7 +40,7 @@ export default function Slider() {
         </div>
         {/* end slider item */}
         {/* start slider item */}
-        <div
+        {/* <div
           className="swiper-slide cover-background"
           style={{ backgroundImage: 'url("images/homepage-5-slider-img-1.jpg")' }}
         >
@@ -66,10 +66,10 @@ export default function Slider() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* end slider item */}
         {/* start slider item */}
-        <div
+        {/* <div
           className="swiper-slide cover-background"
           style={{ backgroundImage: 'url("images/homepage-5-slider-img-2.jpg")' }}
         >
@@ -85,7 +85,7 @@ export default function Slider() {
                 </h1>
                 <div className="btn-dual">
                   <a
-                    href="https://1.envato.market/g7jrr"
+                    href="#"
                     target="_blank"
                     className="btn btn-white btn-rounded btn-medium sm-margin-two-all"
                   >
@@ -95,11 +95,11 @@ export default function Slider() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* end slider item */}
       </div>
       {/* start slider pagination */}
-      <div className="swiper-pagination swiper-pagination-white" />
+      {/* <div className="swiper-pagination swiper-pagination-white" /> */}
       {/* end slider pagination */}
       {/* start slider navigation */}
       {/* <div class="swiper-button-next light"><i class="ti-angle-right"></i></div>

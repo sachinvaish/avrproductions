@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name :'',
+    phone : '',
+    email : '',
+    message : ''
+  });
+
+  const onChange=(e)=>{
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  }
+  
+
   return (
-    <>
+    <div style={{fontFamily:'Centaur Regular',fontSize:'1.4rem'}}>
         {/* start page title section */}
         <section
             className="wow animate__fadeIn parallax" 
@@ -104,9 +116,9 @@ export default function Contact() {
                     E-mail Us
                 </div>
                 <p className="mx-auto">
-                    <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                    <a href="mailto:varun@avrproductions.in">varun@avrproductions.in</a>
                     <br />
-                    <a href="mailto:hr@yourdomain.com">hr@yourdomain.com</a>
+                    <a href="mailto:info@avrproductions.in">info@avrproductions.in</a>
                 </p>
                 {/* <a
                     href="#"
@@ -147,7 +159,7 @@ export default function Contact() {
         </section>
         {/* end contact info section */}
         {/* start contact form */}
-        <section id="contact" className="wow animate__fadeIn p-0 bg-extra-dark-gray">
+        {/* <section id="contact" className="wow animate__fadeIn p-0 bg-extra-dark-gray">
             <div className="container-fluid">
             <div className="row row-cols-1 row-cols-lg-2">
                 <div
@@ -163,8 +175,6 @@ export default function Contact() {
                 </h5>
                 <form
                     id="project-contact-form-4"
-                    action="http://www.themezaa.com/html/pofo/email-templates/contact-form.php"
-                    method="post"
                 >
                     <div className="row">
                     <div className="col-12">
@@ -174,6 +184,8 @@ export default function Contact() {
                         <input
                         type="text"
                         name="name"
+                        value={formData.name}
+                        onChange={onChange}
                         id="name"
                         placeholder="Name *"
                         className="bg-transparent border-color-medium-dark-gray medium-input required"
@@ -183,6 +195,8 @@ export default function Contact() {
                         <input
                         type="tel"
                         name="phone"
+                        value={formData.phone}
+                        onChange={onChange}
                         id="phone"
                         placeholder="Phone"
                         className="bg-transparent border-color-medium-dark-gray medium-input"
@@ -192,33 +206,22 @@ export default function Contact() {
                         <input
                         type="email"
                         name="email"
+                        value={formData.email}
+                        onChange={onChange}
                         id="email"
                         placeholder="E-mail *"
                         className="bg-transparent border-color-medium-dark-gray medium-input required"
                         />
                     </div>
-                    {/* <div className="col-12 col-md-6">
-                        <div className="select-style medium-select border-color-medium-dark-gray">
-                        <select
-                            name="budget"
-                            id="budget"
-                            className="bg-transparent mb-0"
-                        >
-                            <option value="">Select your budget</option>
-                            <option value="$500 - $1000">$500 - $1000</option>
-                            <option value="$1000 - $2000">$1000 - $2000</option>
-                            <option value="$2000 - $5000">$2000 - $5000</option>
-                        </select>
-                        </div>
-                    </div> */}
                     <div className="col-12">
                         <textarea
-                        name="comment"
-                        id="comment"
+                        name="message"
+                        value={formData.message}
+                        onChange={onChange}
+                        id="message"
                         placeholder="Describe your project"
                         rows={7}
                         className="bg-transparent border-color-medium-dark-gray medium-textarea"
-                        defaultValue={""}
                         />
                     </div>
                     <div className="col-12 text-center">
@@ -235,7 +238,7 @@ export default function Contact() {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         {/* end contact form */}
         {/* start map section */}
         <section className="p-0 one-second-screen md-h-400px sm-h-300px wow animate__fadeIn">
@@ -298,7 +301,7 @@ export default function Contact() {
             </div>
         </section> */}
         {/* end social section */}
-        </>
+        </div>
 
   );
 }

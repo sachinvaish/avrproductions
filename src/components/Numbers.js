@@ -99,7 +99,7 @@ export default function Numbers() {
         className="alt-font row justify-content-center align-items-center"
         style={{ marginBottom: "100px" }}
       >
-        Our Numbers
+        OUR NUMBERS
       </h3>
       <div className="container">
         <div className="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
