@@ -172,6 +172,9 @@ export default function Header() {
               <a href="#services" onClick={collapseMenu}>Services</a>
             </li>
             <li className="dropdown megamenu-fw ">
+              <a href="#branches" onClick={collapseMenu}>Our Presence</a>
+            </li>
+            <li className="dropdown megamenu-fw ">
               <a href="#contact" onClick={collapseMenu}>Contact</a>
             </li>
           </ul>

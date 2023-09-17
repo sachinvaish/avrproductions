@@ -62,8 +62,6 @@ export default function Contact() {
                     Visit Our Office
                 </div>
                 <p className="mx-auto">
-                AVR Productions Brand Services
-                    <br />
                     H.O- Plot No. 2, Canal Estate
                     <br />
                     Dehlon-Sanewal Road, Tibba - 141120

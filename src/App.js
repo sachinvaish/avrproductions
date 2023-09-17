@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Counter from "./components/Counter";
 import Contact from "./components/Contact";
 import Numbers from "./components/Numbers";
+import OurPresence from "./components/OurPresence";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {/* <Counter /> */}
         <Numbers/>
         <Services />
+        <OurPresence/>
         <Contact/>
         <Footer />
         <a className="scroll-top-arrow" href="#">
