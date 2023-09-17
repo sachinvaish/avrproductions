@@ -3883,3 +3883,16 @@ aside .instafeed-grid.gutter-extra-large, footer .instafeed-grid.gutter-extra-la
 .img :hover{
     scale: 1.2;
 }
+
+.mapArea{
+    fill:'#f5f';
+    cursor: pointer;
+}
+
+
+  .tippy-content {
+        color: white;
+        background-color: #0c5700;
+        border-radius: 5px;
+        padding: 5px 10px;
+  }
