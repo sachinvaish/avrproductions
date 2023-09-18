@@ -6,27 +6,27 @@ import 'tippy.js/dist/backdrop.css';
 import 'tippy.js/animations/shift-away.css';
 
 export default function OurPresence() {
+  let instance ;
 
   const mouseOver= (e)=>{
     // alert('clicked');
     e.target.style.fill='#8f8f8f';
-    if(e.target.id=='IN-CT'){
-      let value =  'Location Markted'
-      // alert('Its chattisgarh')
-      tippy('.mapArea', {
-        followCursor: true,
-        content:`${value}`,
+    // if(e.target.id=='IN-CT'){
+      let title =e.target.getAttribute('title');
+       instance = tippy(`#${e.target.id}`, {
+        content:`${title}`,
+        // followCursor: true,
+        // plugins: [followCursor],
         animation: 'scale'
       });
-    }
+    // }
   }
 
   const mouseLeft= (e)=>{
     // alert('clicked');
     e.target.style.fill='#1b1e26';
-    if(e.target.id=='IN-CT'){
-      // alert('Its chattisgarh')
-    }
+    
+    // setTitle('')
   }
 
   return (
