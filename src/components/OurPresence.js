@@ -225,41 +225,41 @@ export default function OurPresence() {
 
     <section className="wow animate__fadeIn" id='branches'>
       <div className="container">
-        <div className="row justify-content-center">
-          <h3
+        <div className="row justify-content-center" >
+          {/* <h3
             className="alt-font row justify-content-center align-items-center"
             style={{ marginBottom: "100px" }}
           >
             OUR PRESENCE
-          </h3>
+          </h3> */}
           <div
             className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp"
-            style={{alignItems:'center',  paddingRight:'20px'}}
+            style={{width:'50%',height:'auto',boxSizing:'border-box'}}
           >
             <div className="bg-white text-left image-hover-style">
               <div className="padding-45px-all md-padding-30px-all">
                 <h5 className="text-extra-dark-gray font-weight-700 d-block alt-font margin-10px-bottom">
-                  We're located in the following areas :
+                  Our Presence
                 </h5>
                 <div style={{display:'flex', gap:'50px'}}>
                   <ul style={{fontSize:'1.3rem'}}>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>New Delhi</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Mumbai</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Bangalore</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Indore</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Chennai</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>New Delhi</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Mumbai</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Bangalore</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Indore</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Chennai</li>
                     {/* <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Karnataka</li> */}
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Vizag</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Hyderabad</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Vizag</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Hyderabad</li>
                   </ul>
                   <ul style={{fontSize:'1.3rem'}}>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Punjab</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Gurgaon</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Jammu and Kashmir</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Rajasthan</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Himachal Pradesh</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Goa</li>
-                    <li style={{margin:'30px',marginLeft:0,marginRight:'40px', cursor:'pointer'}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Gujarat</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Punjab</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Gurgaon</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Jammu and Kashmir</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Rajasthan</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Himachal Pradesh</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Goa</li>
+                    <li style={{margin:'30px',marginLeft:0,marginRight:'10px', cursor:'pointer', listStyleImage:`url('images/location-icon.png')`}} onMouseOver={mouseOverText} onMouseLeave={mouseLeftText}>Gujarat</li>
                   </ul>
                 </div>
               </div>
@@ -267,15 +267,16 @@ export default function OurPresence() {
           </div>
           <div
             className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp"
-            style={{ marginBottom: "50px" }}
+            style={{width:'50%',height:'auto',boxSizing:'border-box'}}
           >
-            <div className="bg-white text-center image-hover-style">
-              <div className="padding-45px-all md-padding-30px-all">
+            <div className="bg-white text-left image-hover-style">
+              <div className=" md-padding-30px-all">
               <svg
                 version="1.1"
                 id="svg2"
                 height="695.70178"
                 width="611.85999"
+                style={{scale:0.5}}
               >
                 <defs
                   id="defs42"
