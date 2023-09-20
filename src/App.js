@@ -7,6 +7,7 @@ import Counter from "./components/Counter";
 import Contact from "./components/Contact";
 import Numbers from "./components/Numbers";
 import OurPresence from "./components/OurPresence";
+import Presence2 from "./components/Presence2";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         {/* <Counter /> */}
         <Numbers/>
         <Services />
-        <OurPresence/>
-        
+        {/* <OurPresence/> */}
+        <Presence2/>
         <Contact/>
         <Footer />
         <a className="scroll-top-arrow" href="#">
