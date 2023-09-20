@@ -156,86 +156,7 @@ export default function Contact() {
                 </div> */}
             {/* end contact info item */}
           </div>
-          <div className="row justify-content-center" style={{marginTop:'100px'}}>
-            <div className="col-12 col-lg-6 col-md-8 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
-              <h5 className="alt-font font-weight-700 text-extra-dark-gray text-uppercase mb-0">
-                Work with Us
-              </h5>
-            </div>
-          </div>
-          <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2" >
-            {/* start contact info item */}
-            <div className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
-              <div className="d-inline-block margin-20px-bottom">
-                <div className="bg-extra-dark-gray icon-round-medium">
-                  <i className="icon-briefcase icon-medium text-white-2" />
-                </div>
-              </div>
-              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
-                Career in AVR
-              </div>
-              <p className="mx-auto">
-              <a href="mailto:hr@avrproductions.in">
-                  hr@avrproductions.in
-                </a>
-              </p>
-            </div>
-            {/* end contact info item */}
-            {/* start contact info item */}
-            <div
-              className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin"
-              data-wow-delay="0.2s"
-            >
-              <div className="d-inline-block margin-20px-bottom">
-                <div className="bg-extra-dark-gray icon-round-medium">
-                  <i className=" icon-paintbrush icon-medium text-white-2" />
-                </div>
-              </div>
-              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
-                Artist
-              </div>
-              <p className="mx-auto">
-              <a href="mailto:talent@avrproductions.in">
-                  talent@avrproductions.in
-                </a>
-              </p>
-              {/* <a
-                    href="#"
-                    className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
-                >
-                    call us
-                </a> */}
-            </div>
-            {/* end contact info item */}
-            {/* start contact info item */}
-            <div
-              className="col text-center xs-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin"
-              data-wow-delay="0.4s"
-            >
-              <div className="d-inline-block margin-20px-bottom">
-                <div className="bg-extra-dark-gray icon-round-medium">
-                  <i className=" icon-hotairballoon icon-medium text-white-2" />
-                </div>
-              </div>
-              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
-                For Collaboration/Technical
-              </div>
-              <p className="mx-auto">
-                <a href="mailto:collaborate@avrproductions.in">
-                  collaborate@avrproductions.in
-                </a>
-                
-              </p>
-              {/* <a
-                    href="#"
-                    className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
-                >
-                    send e-mail
-                </a> */}
-            </div>
-            {/* end contact info item */}
-            
-          </div>
+         
         </div>
       </section>
       {/* end contact info section */}
@@ -388,6 +309,89 @@ export default function Contact() {
             </div>
         </section> */}
       {/* end social section */}
+      <section className="wow animate__fadeIn" id="contact">
+      <div className="row justify-content-center">
+            <div className="col-12 col-lg-6 col-md-8 margin-eight-bottom md-margin-40px-bottom sm-margin-30px-bottom text-center last-paragraph-no-margin">
+              <h5 className="alt-font font-weight-700 text-extra-dark-gray text-uppercase mb-0">
+                Work with Us
+              </h5>
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-lg-3 row-cols-sm-2" >
+            {/* start contact info item */}
+            <div className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin">
+              <div className="d-inline-block margin-20px-bottom">
+                <div className="bg-extra-dark-gray icon-round-medium">
+                  <i className="icon-briefcase icon-medium text-white-2" />
+                </div>
+              </div>
+              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
+                Career in AVR
+              </div>
+              <p className="mx-auto">
+              <a href="mailto:hr@avrproductions.in">
+                  hr@avrproductions.in
+                </a>
+              </p>
+            </div>
+            {/* end contact info item */}
+            {/* start contact info item */}
+            <div
+              className="col text-center md-margin-eight-bottom sm-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin"
+              data-wow-delay="0.2s"
+            >
+              <div className="d-inline-block margin-20px-bottom">
+                <div className="bg-extra-dark-gray icon-round-medium">
+                  <i className=" icon-paintbrush icon-medium text-white-2" />
+                </div>
+              </div>
+              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
+                Artist
+              </div>
+              <p className="mx-auto">
+              <a href="mailto:talent@avrproductions.in">
+                  talent@avrproductions.in
+                </a>
+              </p>
+              {/* <a
+                    href="#"
+                    className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
+                >
+                    call us
+                </a> */}
+            </div>
+            {/* end contact info item */}
+            {/* start contact info item */}
+            <div
+              className="col text-center xs-margin-30px-bottom wow animate__fadeInUp last-paragraph-no-margin"
+              data-wow-delay="0.4s"
+            >
+              <div className="d-inline-block margin-20px-bottom">
+                <div className="bg-extra-dark-gray icon-round-medium">
+                  <i className=" icon-hotairballoon icon-medium text-white-2" />
+                </div>
+              </div>
+              <div className="text-extra-dark-gray text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
+                For Collaborations <br/> (Technical Partners, Exhibition Partners, Gifting and more)
+              </div>
+              <p className="mx-auto">
+                <a href="mailto:collaborate@avrproductions.in">
+                  collaborate@avrproductions.in
+                </a>
+                
+              </p>
+              {/* <a
+                    href="#"
+                    className="  text-uppercase text-deep-pink text-small margin-15px-top sm-margin-10px-top d-inline-block"
+                >
+                    send e-mail
+                </a> */}
+            </div>
+            {/* end contact info item */}
+            
+          </div>
+      </section>
+      
     </div>
   );
 }

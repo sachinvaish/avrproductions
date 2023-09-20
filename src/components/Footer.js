@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom"  style={{fontFamily:'Centaur Regular',fontSize:'1rem'}}>
+    <footer className="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom"  style={{fontFamily:'Centaur Regular',fontSize:'1rem', height:'100px'}}>
       <div className="bg-dark-footer padding-50px-tb sm-padding-30px-tb">
         <div className="container">
           <div className="row align-items-center">
