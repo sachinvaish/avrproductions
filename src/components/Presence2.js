@@ -9,7 +9,7 @@ import { getByTitle } from "@testing-library/react";
 export default function Presence2() {
 
   return (
-   <section className="wow animate__fadeIn" id='branches' style={{overflow:'scroll'}}>
+   <section className="wow animate__fadeIn" id='branches'>
       <div className="container">
         <div className="row justify-content-center">
           <h3
@@ -39,7 +39,7 @@ export default function Presence2() {
             <div className="bg-white text-left image-hover-style">
               <div className="padding-45px-all md-padding-30px-all">
                 <div >
-                <img src="images/map2.png" alt=""  />
+                <img src="images/Map2.png" alt=""  />
                 </div>
               </div>
             </div>
