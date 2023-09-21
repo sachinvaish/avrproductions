@@ -18,7 +18,7 @@ export default function Presence2() {
           >
             OUR PRESENCE
           </h3>
-          <div
+          {/* <div
             className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp"
             style={{alignItems:'center',  paddingRight:'20px'}}
           >
@@ -31,13 +31,13 @@ export default function Presence2() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             className="col-12 col-lg-6 col-md-12 col-sm-8 md-margin-30px-bottom wow animate__fadeInUp"
             style={{alignItems:'center',  paddingRight:'20px'}}
           >
             <div className="bg-white text-left image-hover-style">
-              <div className="padding-45px-all md-padding-30px-all">
+              <div>
                 <div >
                 <img src="images/Map2.png" alt=""  />
                 </div>
